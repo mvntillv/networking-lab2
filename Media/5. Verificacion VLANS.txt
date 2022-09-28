@@ -1,0 +1,439 @@
+SWITCH 1:
+
+SW1#show ip interface vlan 99
+  Vlan99 is up, line protocol is up
+  Internet address is 10.7.99.2/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled 
+
+SW1#show ip interface vlan 10
+  Vlan10 is up, line protocol is up
+  Internet address is 10.7.10.2/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled
+
+SW1#show ip interface vlan 15
+  Vlan15 is up, line protocol is up
+  Internet address is 10.7.15.2/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled
+
+SW1#show ip interface vlan 30
+  Vlan30 is up, line protocol is up
+  Internet address is 10.7.30.2/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled
+
+
+SWITCH 2:
+
+SW2#show ip interface vlan 99
+  Vlan99 is up, line protocol is up
+  Internet address is 10.7.99.3/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled
+
+SW2#show ip interface vlan 10
+  Vlan10 is up, line protocol is up
+  Internet address is 10.7.10.3/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled
+
+SW2#show ip interface vlan 15
+  Vlan15 is up, line protocol is up
+  Internet address is 10.7.15.3/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled
+
+SW2#show ip interface vlan 30
+  Vlan30 is up, line protocol is up
+  Internet address is 10.7.30.3/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled
+
+
+SWITCH 3:
+
+SW3#show ip interface vlan 99
+  Vlan99 is up, line protocol is up
+  Internet address is 10.7.99.4/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled
+
+SW3#show ip interface vlan 10
+  Vlan10 is up, line protocol is up
+  Internet address is 10.7.10.4/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled
+
+SW3#show ip interface vlan 15
+  Vlan15 is up, line protocol is up
+  Internet address is 10.7.15.4/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled
+
+SW3#show ip interface vlan 30
+  Vlan30 is up, line protocol is up
+  Internet address is 10.7.30.4/24
+  Broadcast address is 255.255.255.255 
+  Address determined by setup command 
+  MTU is 1500 bytes 
+  Helper address is not set
+  Directed broadcast forwarding is disabled 
+  Outgoing access list is not set 
+  Inbound  access list is not set 
+  Proxy ARP is enabled 
+  Local Proxy ARP is disabled 
+  Security level is default 
+  Split horizon is enabled 
+  ICMP redirects are always sent 
+  ICMP unreachables are always sent 
+  ICMP mask replies are never sent 
+  IP fast switching is disabled 
+  IP fast switching on the same interface is disabled 
+  IP Null turbo vector 
+  IP multicast fast switching is disabled 
+  IP multicast distributed fast switching is disabled 
+  IP route-cache flags are None 
+  Router Discovery is disabled 
+  IP output packet accounting is disabled 
+  IP access violation accounting is disabled 
+  TCP/IP header compression is disabled 
+  RTP/IP header compression is disabled 
+  Probe proxy name replies are disabled 
+  Policy routing is disabled 
+  Network address translation is disable 
+  WCCP Redirect outbound is disabled 
+  WCCP Redirect inbound is disabled 
+  WCCP Redirect exclude is disabled 
+  BGP Policy Mapping is disabled

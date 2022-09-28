@@ -1,0 +1,13 @@
+C:\>ping 10.7.30.1
+
+Pinging 10.7.30.1 with 32 bytes of data:
+
+Reply from 10.7.30.1: bytes=32 time=6ms TTL=255
+Reply from 10.7.30.1: bytes=32 time=6ms TTL=255
+Reply from 10.7.30.1: bytes=32 time=6ms TTL=255
+Reply from 10.7.30.1: bytes=32 time=6ms TTL=255
+
+Ping statistics for 10.7.30.1:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 6ms, Maximum = 6ms, Average = 6ms

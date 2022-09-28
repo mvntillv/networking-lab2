@@ -1,0 +1,15 @@
+SWITCH 2:
+
+SW2#config t
+SW2(config)#spanning-tree vlan 30 root primary
+SW2(config)#exit
+
+
+
+
+
+SWITCH 3:
+
+SW3#config t
+SW3(config)#spanning-tree vlan 15 root primary
+SW3(config)#exit

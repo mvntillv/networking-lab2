@@ -1,0 +1,42 @@
+S1#conf t 
+S1(config)#vlan 10 
+S1(config-vlan)#name Tesoreria 
+S1(config-vlan)#vlan 15 
+S1(config-vlan)#name Marketing 
+S1(config-vlan)#vlan 30 
+S1(config-vlan)#name Tecnologia 
+S1(config-vlan)#ex
+
+S1#conf t 
+S1(config)#inter range f0/1-5 
+S1(config-if-range)#switchport mode trunk 
+SW1(config-if-range)#switchport trunk native vlan 99
+S1(config-if-range)#ex 
+S1(config)#inter range f0/6-9 
+S1(config-if-range)#switchport mode access 
+S1(config-if-range)#switchport access vlan 30 
+S1(config-if-range)#ex 
+S1(config)#inter range f0/10-12 
+S1(config-if-range)#switchport mode access 
+S1(config-if-range)#switchport access vlan 15 
+S1(config-if-range)#ex S1(config)#inter range f0/13-24 
+S1(config-if-range)#switchport mode access 
+S1(config-if-range)#switchport access vlan 10 
+S1(config-if-range)#ex
+
+S1#conf t 
+S1(config)#interface vlan 99 
+S1(config-if)#ip address 10.7.99.2 255.255.255.0 
+S1(config-if)#no shutdown 
+S1(config-if)#ex 
+S1(config)#interface vlan 10 
+S1(config-if)#ip address 10.7.10.2 255.255.255.0 
+S1(config-if)#no shutdown 
+S1(config-if)#ex 
+S1(config)#interface vlan 15 
+S1(config-if)#ip address 10.7.15.2 255.255.255.0 
+S1(config-if)#no shutdown S1(config-if)#ex 
+S1(config)#interface vlan 30 
+S1(config-if)#ip address 10.7.30.2 255.255.255.0 
+S1(config-if)#no shutdown 
+S1(config-if)#ex
